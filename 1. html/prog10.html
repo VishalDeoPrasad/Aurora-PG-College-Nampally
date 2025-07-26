@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Doctor Visit Form</title>
+</head>
+<body>
+  <h1>Doctor Visit Appointment Form</h1>
+  <form>
+    <label>Full Name:</label>
+    <input type="text" placeholder="Enter your name"><br><br>
+
+    <label>Age:</label>
+    <input type="number" min="0"><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female
+    <input type="radio" name="gender"> Other<br><br>
+
+    <label>Contact Number:</label>
+    <input type="tel" placeholder="10-digit number"><br><br>
+
+    <label>Email:</label>
+    <input type="email" placeholder="Enter your email"><br><br>
+
+    <label>Date of Visit:</label>
+    <input type="date"><br><br>
+
+    <!-- <label>Preferred Doctor:</label>
+    <select>
+      <option>-- Select Doctor --</option>
+      <option>Dr. Anjali Sharma</option>
+      <option>Dr. Rajeev Mehta</option>
+      <option>Dr. Neha Gupta</option>
+    </select><br><br> -->
+
+    <label>Symptoms / Reason for Visit:</label><br>
+    <textarea rows="4" cols="40" placeholder="Describe your symptoms or concerns..."></textarea><br><br>
+
+    <label>Have you visited before?</label><br>
+    <input type="radio" name="visited"> Yes
+    <input type="radio" name="visited"> No<br><br>
+
+    <label>Existing Medical Conditions:</label><br>
+    <input type="checkbox"> Diabetes
+    <input type="checkbox"> High Blood Pressure
+    <input type="checkbox"> Asthma
+    <input type="checkbox"> None<br><br>
+
+    <!-- <label>Upload Previous Reports (if any):</label>
+    <input type="file"><br><br> -->
+
+    <input type="submit" value="Book Appointment">
+  </form>
+</body>
+</html>

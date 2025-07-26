@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title> Registration </title>
+        <style>
+            body {
+                background-color: rgba(211, 197, 197, 0.137);
+                /* display: flex;
+                justify-content: center; */
+            }
+            form {
+                width: 300px;
+                background-color: lightblue;
+                padding: 20px;
+                box-shadow: 0 0 15px black;
+                border-radius: 10px;
+            }
+            input{
+                width: 100%;
+                padding: 7px;
+            }
+            .gen {
+                display: flex;
+            }
+        </style>
+    </head>
+    <body>
+        <h1> Registration Form </h1>
+        <form>
+            <label> Full Name: </label>
+            <input id="name" type="text" placeholder="Enter your name">
+
+            <label> Email: </label>
+            <input id="email" type="email" placeholder="Enter your email">
+
+            <label> Password: </label>
+            <input id="password" type="password" placeholder="Enter your password">
+
+            <label> Gender: </label>
+            <div class="gen"> 
+                <input type="radio" value="Male" name="gender"> Male
+                <input type="radio" value="Female" name="gender"> Female
+                <input type="radio" value="Other" name="gender"> Other
+            </div>
+
+            <label> Phone Number: </label>
+            <input id="phone" type="tel" placeholder="Enter your Mobile Number">
+
+            <label> Date of Birth: </label>
+            <input type="date" id="dob">
+
+            <label> Country: </label>
+            <select id="country">
+                <option value="India"> India </option>
+                <option value="Japan"> Japan </option>
+                <option value="USA"> USA </option>
+                <option value="Canada"> Canada </option>
+                <option value="Canada"> Canada </option>
+            </select>
+
+            <input type="checkbox"> I agree to the term and condition.
+
+            <input type="submit" value="Register">
+        </form>
+    </body>
+</html>
